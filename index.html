@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SecureCode</title>
+    <style>
+        #error{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+  First name:<br>
+  <input type="text" name="firstname" >
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" >
+  <br><br>
+  Solve:
+  <div class="solve"></div> 
+  <br>
+  <input id = 'code' type="text" maxlength="3" size="3" autocomplete="off">  
+  <br><br>
+  <input id = 'submit' type="submit" value="Submit">
+</form> 
+<br>
+<div id="time"></div>
+<br><br>
+<div id="error"></div>
+</body>
+<script src = 'js/script.js' ></script>
+</html>
